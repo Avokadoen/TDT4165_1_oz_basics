@@ -25,14 +25,15 @@ define
     {System.print {List.drop TList 1}}    % prints: [1 2 3 4 5]
     {System.print {List.drop TList 3}}    % prints: [3 4 5]
     {System.print {List.drop TList 5}}    % prints: [5]
+    {System.print {List.drop TList 6}}    % prints: nil
 
     % Append test
     {System.showInfo "\nAppend test:"}
     TList2 = [6 7]
     {System.print {List.append TList TList2}}    % prints: [0 1 2 3 4 5 6 7]
     {System.print {List.append TList2 TList}}    % prints: [6 7 0 1 2 3 4 5]
-    {System.print {List.append TList nil}}    % prints: [0 1 2 3 4 5]
-    {System.print {List.append nil TList}}    % prints: [0 1 2 3 4 5]
+    {System.print {List.append TList nil}}      % prints: [0 1 2 3 4 5]
+    {System.print {List.append nil TList}}      % prints: [0 1 2 3 4 5]
     
 
     % Member test
