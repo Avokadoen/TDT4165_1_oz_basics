@@ -1,4 +1,4 @@
-# TDT4165 Assignment 1
+# TDT4165 Assignment 1 - Oz basics
 This is my code for assignment 1 in programming languages
 
 To build a oz file you use the oz compiler i.e
